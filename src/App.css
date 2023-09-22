@@ -1,0 +1,31 @@
+body{
+  background: url("./assets/stem.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+h1 {
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 0.15em #00ff6a;
+  padding: 50px;
+}
+
+.responsive-title {
+  @media (max-width: 767px) {
+    font-size: 2rem;
+  }
+}
+
+.card{
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
